@@ -4,6 +4,9 @@ padding: 0;
 margin: 0;
 
 }
+body{
+  background:#050505;
+}
 header{
     display: flex;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.911) , rgba(2, 2, 2, 0.911)),url('/img/background.png');
@@ -11,7 +14,7 @@ header{
     background-size: cover;
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     
     
 }
@@ -39,6 +42,7 @@ nav ul{
   position: absolute;
   margin-top: 70px;
   margin-left: 30px;
+ 
   
 }
 .hero-section p{
@@ -82,8 +86,104 @@ button{
 }
 img{
     width: 300px;
+    
 
 }
+/*about-section*/
+.about-us p{
+  font-family: 'Great Vibes';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+color: #FF9F0D;
+margin-top: 30px;
+margin-left:40px ;
+}
+.about-section{
+    color: #fdfdfd;
+    margin-left: 30px;
+   
+}
+.about-section h3{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 36px;
+/* or 117% */
+
+font-feature-settings: 'kern' off;
+}
+.about-section p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+/* or 150% */
+
+
+/* fffffff */
+
+color: #FFFFFF;
+}
+
+.about-section li{
+  list-style: none;
+  margin:5px 10px;
+  
+}
+.about-section li:before {
+  content: '\2714\0020';
+  margin-right: 5px;
+}
+.about-section button{
+ margin-left: 5px;
+ margin-bottom: 15px;
+}
+.about-section .image-1{
+  width: 250px;
+  height: 150px;
+}
+.about-section image-1 {
+  width: 70px;
+  height: 50px;
+}
+.food p{
+  font-style: italic;
+  font-family: 'Great Vibes';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+color: #FF9F0D;
+margin-top: 20px;
+text-align: center;
+}
+.category{
+  justify-content: center;
+  color: #fdfdfd;
+  text-align: center;
+  
+}
+.category img{
+  width:150px ;
+  height: 100px;
+}
+.category h4{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+}
+.img-category{
+  width: 70px;
+  height: 50px;
+  text-align: center;
+}
+
 @media only screen and (min-width: 1000px){
     *{
         padding: 0;
@@ -187,6 +287,9 @@ height: 60px;
 width: 700px;
 height: 550px;
 left: 500px;
+  }
+  body{
+    background:#131212;
   }
 
 }
