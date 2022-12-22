@@ -35,15 +35,21 @@ nav ul{
 .fa-bars{
   margin-top: 23px;
   margin-left: 200px;
-  width: 400px;
+  width: 50px;
+  height: 30px;
   color: rgb(255, 255, 255);
+ 
 }
 .hero-section{
   position: absolute;
   margin-top: 70px;
-  margin-left: 30px;
- 
+  margin-left: 70px;
+  text-align: center;
   
+}
+.hero-section .container{
+ max-width: 500px;
+  text-align:center ;
 }
 .hero-section p{
     color:  #FF9F0D;
@@ -102,7 +108,7 @@ margin-left:40px ;
 }
 .about-section{
     color: #fdfdfd;
-    margin-left: 30px;
+    margin-left: 20px;
    
 }
 .about-section h3{
@@ -122,11 +128,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 17px;
 /* or 150% */
-
-
 /* fffffff */
-
 color: #FFFFFF;
+min-width: 400px;
 }
 
 .about-section li{
@@ -147,9 +151,11 @@ color: #FFFFFF;
   height: 100px;
 }
 .about-section img {
-  width: 300px;
-  height: 200px;
-  justify-content: center;
+  max-width: 300px;
+  max-height: 200px;
+  align-items: center;
+  margin-left: 50px;
+
 }
 .food p{
   font-style: italic;
@@ -322,7 +328,7 @@ height: 40vh;
   align-items: flex-start;
 }
 .chef img{
-  position: ;
+  position:absolute;
   width: 60px;
   height: 50px;
   flex: start;
@@ -377,24 +383,262 @@ margin-left: 50px;
   position:absolute;
 }
 .menu-list-images{
-  display: flex;
-  margin-left: 30px;
-  justify-content: center;
+  width: 400px;
+  margin-left: 20px;
   margin-top: 35px;
+ justify-content: center;
+ align-items: center;
+ text-align: justify;
+ display: flex;
+ flex-wrap: wrap;
+  
 }
 
  
 .menu-list-images img{
-  width: 70px;
-}
-.menu-list-images p{
-   font-size: 13px;
-   font-size: 13px;
+  width: 50px;
+  justify-content: center;
+ align-items: center;
+ text-align: justify;
   display: flex;
+  margin-top: 23px;
+  
+}
+.menu-list-images em{
+   font-size: 13px;
+   font-size: 13px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #fdfdfd;
+  width: 30px;
   
 }
 .lettuce {
+  max-width: 550px;
+}
+.chefs img{
+  justify-content: center;
+  text-align: center;
+  display: flex;
  
+}
+.chefs .container{
+  flex-wrap: wrap;
+  display: flex;
+  
+  margin-left: 70px;
+  text-align: center;
+  width: 300px;
+  justify-content: space-between;
+  margin-top: 15px;
+} 
+.chefs img{
+  display: flex;
+  width: 140px;
+  height: 180px;
+  gap:1px;
+  align-items: center;
+  justify-content: space-between;[2][]
+}
+.chefs-header{
+  margin-top: 20px;
+  text-align: center;
+}
+.chefs-header p{
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.chefs-header h3{
+  color: #fdfdfd;
+  font-size: 30px;
+}
+.chef-image-3{
+  margin-right: px;
+}
+.button-3{
+margin-top: 5px;
+margin-left: 100px;
+text-align: center;
+border-color: #FF9F0D;
+}
+.button-3 button{
+  background-color: transparent;
+  border:1px solid #FF9F0D;
+}
+.testimonials-text{
+ margin-left: 70px;
+  
+}
+.testimonials-text h4{
+  color: #FF9F0D;
+  margin-top: 20px;
+  font-style: italic ;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.testimonials-text p{
+  color: #fdfdfd;
+  font-size: 30px;
+  font-weight: 800;
+}
+.testimonials .container{
+   justify-content: center;
+  
+}
+.card{
+  width: 320px;
+  height: 300px;
+  background-color: #fdfdfd;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.testimonials img{
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  
+}
+.card p{
+  margin-top: 10;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.document-process{
+  background-image: url('/img/Restaurant-1.png');
+  text-align: center;
+  margin-top: 70px;
+  background-position: cover;
+  background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+.document-process img{
+  width: 100%;
+  height: 30vh;
+}
+.play-vid h4{
+  margin-top: px;
+  font-size: 17px;
+  color: #FF9F0D;
+  font-style: italic;
+}
+.play-vid p{
+  color: #fdfdfd;
+margin-top: 17px;
+font-size: 25px;
+font-weight: 900;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.vid-play p{
+  font-weight: 400;
+  width: 400px;
+  text-align: center;
+margin-left: 40px;
+font-size: 13px;
+}
+.readmore-button button{
+  background-color: transparent;
+  border:1px solid #FF9F0D;
+  justify-content:space-evenly;
+}
+.blog{
+  text-align: center;
+  margin-top: 30px;
+
+  
+}
+.card-blog{
+  
+  border-color:1px solid#fdfcfc;
+  margin-top: 30px;
+  height: 400px;
+  width: 300px;
+margin-left: 80px;
+  margin-top: 30px;
+  height: 400px;
+
+}
+.card-blog h3{
+  font-style: italic;
+  color: #FF9F0D;
+  font-size: 13px;
+  margin:20px ;
+  margin-right: 150px;
+ 
+  
+}
+.card-blog p{
+  margin-top: 10px;
+  color: #fdfdfd;
+  font-size: 16px;
+  margin-right: 80px;
+ 
+}
+.card-blog img{
+  width: 300px;
+  height: 200px;
+}
+.blog-text{
+  text-align: center;
+}
+.blog-text p{
+  margin-top: 40px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#FF9F0D;
+}
+.blog-text h5{
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#fdfdfd;
+}
+.subscribe{
+ 
+  margin-top: 0px;
+}
+.subscribe h1{
+  font-size: 25px;
+  color: #fdfdfd;
+  font-weight: 500;
+}
+.subscribe p{
+  color: #fdfcfc;
+  margin-left: 50px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.subscribe input{
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
+.subscribe button{
+  height: 34px;
+  border-radius: 5px;
+  gap: 0;
+
+}
+.line{
+  margin-top: 30px;
+  width: 400px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 30px;
+  height: 2px;
+  color: #FF9F0D;
+  background-color: #FF9F0D;
 }
 @media only screen and (min-width: 1000px){
     *{
@@ -424,9 +668,7 @@ margin-left: 50px;
    nav ul{
     display:flex;
     justify-content: space-between;
-    
-    
-    
+  
 }
 h1{
     padding: 2px 8px;
@@ -503,5 +745,6 @@ left: 500px;
   body{
     background:#131212;
   }
+
 
 }
