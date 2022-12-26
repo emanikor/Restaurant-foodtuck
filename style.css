@@ -554,15 +554,15 @@ font-size: 13px;
   
 }
 .card-blog{
-  
-  border:1px solid #fdfcfc;
+
+  border:0.1px solid #fdfcfc;
   margin-top: 30px;
   height: 400px;
   width: 300px;
 margin-left: 80px;
   margin-top: 30px;
-  height: 400px;
-
+  height: 350px;
+  border-radius: 4px;
 }
 .card-blog h3{
   font-style: italic;
@@ -632,14 +632,52 @@ margin-left: 80px;
 }
 .line{
   margin-top: 30px;
-  width: 400px;
+  max-width: 390px;
   text-align: center;
   justify-content: center;
   margin-left: 30px;
-  height: 2px;
+  height: 1px;
   color: #FF9F0D;
   background-color: #FF9F0D;
 }
+.footer{
+  margin-top: 20px;
+  justify-content: center;
+  
+}
+.about-footer{
+  text-align: center;
+
+}
+.about-footer p{
+  color: #fdfcfc;
+  font-size: 12px;
+  max-width: 300px;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+ .about-footer h3{
+  color: #fdfcfc;
+  font-size: 15px;
+
+ }
+ .box-footer .container{
+  width:52px;
+  height: 50px;
+   background-color: #FF9F0D;
+   margin-left: 30px;
+   margin-top: 10px;
+ }
+ .box-footer p{
+  width: 100px;
+  margin-left: 70px;
+  
+ }
+  .links h3{
+   margin-top: 100px;
+   color: #fdfcfc; 
+ }
+ .linl
 @media only screen and (min-width: 1000px){
     *{
         padding: 0;
