@@ -2,6 +2,7 @@
 *{
 padding: 0;
 margin: 0;
+box-sizing: border-box;
 
 }
 body{
@@ -18,7 +19,7 @@ header{
     
     
 }
-h1{
+.foodtuck h1{
     padding: 2px 50px;
     font-size: 20px;
     font-weight: 600;
@@ -44,12 +45,12 @@ nav ul{
   position: absolute;
   margin-top: 70px;
   margin-left: 70px;
-  text-align: center;
+ 
+  display: flex;
   
 }
 .hero-section .container{
  max-width: 500px;
-  text-align:center ;
 }
 .hero-section p{
     color:  #FF9F0D;
@@ -81,6 +82,7 @@ line-height: 24px;
 color: #FFFFFF;
 
 }
+
 button{
    width: 100px;
    height: 30px;
@@ -90,7 +92,7 @@ button{
    border: none;
    color: #FFFFFF;
 }
-img{
+.hero-section img{
     width: 300px;
     
 
@@ -675,6 +677,13 @@ margin-left: 80px;
  }
  .links{
   margin-left: 25px;
+  flex-direction: column;
+  
+ }
+ .links .container{
+  display: flex;
+  grid-template-columns: auto;
+  flex-direction: column;
  }
   .links h2{
    margin-top: 30px;
@@ -815,7 +824,7 @@ margin-left: 80px;
     }
    header{
    
-    diplay:block;
+    display:block;
     position: absolute;
     display:flex;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.911) , rgba(2, 2, 2, 0.911)), url('/img/background.png');
@@ -841,8 +850,7 @@ h1{
     padding: 2px 8px;
     font-size: 20px;
     font-weight: 600;
-    font-family: '
-    Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(248, 248, 247);
     margin-top: 45px;
     
@@ -868,19 +876,31 @@ nav ul li a {
     flex-direction: row;
     display: flex;
   }
-  .hero-section p{
+  .lorem p{
 
 font-family: 'Great Vibes';
 font-style: italic;
 font-weight: 400;
-font-size: 32px;
+font-size:  16px;
 line-height: 40px;
 /* identical to box height, or 125% */
 
 
 /* Primary color */
-
+max-width:400px ;
 color: #FF9F0D;
+
+  }
+  .hero-section{
+    position: absolute;
+    margin-top: 200px;
+  
+    
+  }
+  .foodtuck h1{
+    margin-left: 30px;
+  }
+  .hero-section .container{
 
   }
   .hero-section h2{
@@ -891,11 +911,12 @@ font-size: 60px;
 line-height: 68px;
 /* or 113% */
 
-
+width: 500px;
 /* Primary color */
-
+position: relative;
 color: #fdfdfd;
   }
+ 
   button{
     width: 190px;
 height: 60px;
@@ -906,13 +927,25 @@ height: 60px;
   }
   img{
    
-width: 700px;
-height: 550px;
-left: 500px;
+   margin-top: 120px;
+max-width: 670px;
+height: 490px;
+margin-left: 90px;
   }
   body{
     background:#131212;
   }
-
-
+  /* .about-section {
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .images-about{
+    flex: wrap;
+    margin: 0;
+  }
+.image-1{
+  max-width: 300PX;
+  height: 100PX;
+} */
 }
