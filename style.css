@@ -99,6 +99,19 @@ background-color: transparent;
           height: 3px;
           margin: 2px; 
   }
+  .navbar h1{
+    color: #fdfdfd;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+
+
+margin-left: 150px;
+  }
   .hero-section{
     position: absolute;
     margin-top: 20px;
@@ -123,6 +136,10 @@ font-size: 25px;
 
 color: #FF9F0D;
 
+  }
+  span{
+    color: #FF9F0D;
+    
   }
   .hero-section h2{
     font-family: 'Helvetica';
@@ -232,6 +249,165 @@ max-height: 300px;
     margin: 10px;
     
   }
+  .food p{
+    font-family: 'Great Vibes';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    
+    
+    /* Primary color */
+   
+    color: #FF9F0D;
+  }
+  .category{
+    justify-content: center;
+    color: #fdfdfd;
+  text-align: center;
+    margin-top: 120px;
+    margin-left: 30px;
+  }
+  .category img{
+    width:260px ;
+    height: 280px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .category h4{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+font-feature-settings: 'kern' off;
+
+/* Primary color */
+margin-top: 0px;
+color: #fdfdfd;
+
+  }
+  .services-p{
+    font-family: 'Great Vibes';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+  
+  
+  /* Primary color */
+  
+  color: #FF9F0D;
+  text-align: center;
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .services{
+    text-align: center;
+    display: flex;
+  }
+  .services h5{
+    font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  /* or 117% */
+  
+  font-feature-settings: 'kern' off;
+  
+  /* Primary color */
+  
+  color:#fdfdfd;
+  
+  }
+  .services p{
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  
+  /* fffffff */
+  
+  color: #FFFFFF;
+  
+  }
+  .services-food{
+    justify-content: center;
+  display: flex;
+  margin-bottom: 30px;
+  }
+  .services-food p{
+    color: #fdfdfd;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+  }
+  
+  .box-1 img{
+    justify-content: center;
+    width: 35px;
+    height: 30px;
+    padding: 25px 20px;
+  }
+  .box-2 img{
+    text-align: center;
+    width: 35px;
+    padding: 25px 20px;
+    height: 30px;
+  }
+  .box-3 img{
+    justify-content: center;
+    width: 35px;
+    height: 30px;
+    padding: 25px 20px;
+  }
+  .box-1{
+    width: 72px;
+  height: 70px;
+  background-color: #FF9F0D;
+  margin-top: 15px;
+  border-radius: 3px;
+  color: #FF9F0D;
+  }
+  .box-2{
+  
+    width: 72px;
+  height: 70px;
+  background-color: #FF9F0D;
+  margin-top: 15px;
+  border-radius: 3px;
+  color: #FF9F0D;
+  margin-left: 40px;
+  }
+  .box-3{
+    width: 72px;
+  height: 70px;
+  background-color: #FF9F0D;
+  margin-top: 15px;
+  border-radius: 3px;
+  color: #FF9F0D;
+  margin-left: 40px;
+  }
+  .taste-food{
+   margin-top: 40px;
+    text-align: center;
+  }
+  .taste-food img{
+    width:180px ;
+    height: 130px;
+  
+  }
+
   @media (max-width: 600px) {
       .toggle-button{
           display: flex;
@@ -415,8 +591,6 @@ margin-top: 10px;
     max-width:500px;
 max-height: 200px;
 
-
-
   }
   .images-about {
     position: relative;
@@ -430,7 +604,43 @@ max-height: 200px;
     height: 150px;
     padding: 0;
     margin: 3px;
-  
+  }
+  .food p{
+    font-family: 'Great Vibes';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0px;
+    /* identical to box height, or 125% */
     
+    
+    /* Primary color */
+   
+    color: #FF9F0D;
+  }
+  .category{
+    justify-content: center;
+    color: #fdfdfd;
+
+    margin-top: 50px;
+    margin-left: 15px;
+    
+  }
+  .category img{
+    flex-direction: column;
+    width:180px ;
+    height: 200px;
+    margin: 2px;
+    align-items: center;
+  }
+  .category h4{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 46px;
+font-feature-settings: 'kern' off;
+color: #fdfdfd;
+
   }
 }
