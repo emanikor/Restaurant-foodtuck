@@ -362,6 +362,21 @@ color: #FF9F0D;
 
 
 }
+.services .box h2{
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+
+/* fffffff */
+
+color: #FFFFFF;
+margin-top: 80px;
+}
 .services-text h5{
   color: #fdfdfd;
   font-family: 'Helvetica';
@@ -445,6 +460,18 @@ margin-top: 15px;
 border-radius: 3px;
 color: #FF9F0D;
 margin-left: 40px;
+}
+.other-services{
+  background-image: linear-gradient(to right, rgba(32, 32, 32, 0.911) , rgba(24, 24, 24, 0.911)),url('/img/Restaurant-1.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  margin-top: 800px;
+}
+.menu{
+  color: #f8f8f8;
 }
   @media (max-width: 600px) {
       .toggle-button{
@@ -678,39 +705,42 @@ color: #fdfdfd;
  .container .taste-1 img{
   max-width: 181px;
   height: 196px;
-  margin-left: 30px;
+  margin-left: 5px;
+  margin-top: 150px;
  }
  .container .taste-2 img{
   max-width: 181px;
   height: 196px;
-  margin-left: 220px;
-  margin-top: 400px;
-  margin-top: 10px;
+  margin-left: 190px;
+  margin-top: 150px;
+ 
  }
  .container .taste-3 img{
-  max-width: 181px;
+  width: 181px;
   height: 196px;
-  margin-left: 0;
-  margin-top: 220px;
+  margin-left: 5px;
+  margin-top:350px;
  }
  .container .taste-4 img{
   max-width: 181px;
   height: 196px;;
-  margin-left: 0;
+  margin-left: 190px;
   position: absolute;
-  
+  margin-top: 350px;
  }
  .container .taste-5 img{
   max-width: 181px;
   height: 196px;
   margin-left: 0;
- 
+  margin-left: 190px;
+  margin-top: 350px;
+  display: block;
  }
  .container .taste-6 img{
   max-width: 181px;
   height: 196px;
-margin-left: 0;
-margin-top: 700px;
+margin-left: 190px;
+margin-top: 550px;
  }
  .services-text{
   justify-content: center;
@@ -777,12 +807,17 @@ width: 400px;
   justify-content: center;
 }
 .container img{
-margin-top: 70px;
+margin-top: 150px;
 margin: 8px;
 margin-left: 30px;
 flex-direction: column;
 flex-wrap: wrap;
 justify-content: center;
+}
+.box{
+  display: flex;
+  position: absolute;
+  margin-top: 430px;
 }
 
 }
