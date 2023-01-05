@@ -594,6 +594,49 @@ position: absolute;
   height: 78px;
   position: absolute;
 }
+.chefs{
+  display: flex;
+  margin-top: 600px;
+  text-align: center;
+}
+.chefs h1{
+  color: #FF9F0D;
+  text-align: center;
+  margin-left: 600px;
+  font-style: italic;
+  font-family: 'Great Vibes';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+}
+.chefs h2{
+  color: #f8f8f8;
+  text-align: center;
+  margin-left: 600px;
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+}
+.chefs img{
+  display: flex;
+  flex-direction: row;
+  width: 312px;
+  height: 391px;
+
+}
+.cards{
+  flex-direction: row;
+  display: flex;
+  position: absolute;
+  width: 312px;
+  height: 391px;
+  left: 30px;
+  margin-top: 100px;
+
+}
   @media (max-width: 600px) {
       .toggle-button{
           display: flex;
