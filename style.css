@@ -637,6 +637,96 @@ line-height: 56px;
   margin-top: 100px;
 
 }
+.chefs  button{
+  position: absolute;
+width: 173px;
+height: 54px;
+left: 689px;
+margin-top: 650px;
+background-color: transparent;
+border:1px solid #FF9F0D;
+}
+.testimonials{
+ margin-left: 80px;
+  margin-top: 600px;
+}
+.testimonials h1{
+  color: #FF9F0D;
+  font-size: 30px;
+  font-style: italic;
+}
+.testimonials h2{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+font-feature-settings: 'kern' off;
+color: #FFFFFF;
+}
+.wrapper{
+  position: relative;	
+	align-items: flex-end;
+	justify-content: center;
+	padding: 1rem;
+  justify-content: center;
+  margin-left: 300px;
+}
+.card{
+  height: 400px;
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-width: 600px;
+  text-align: center;
+  margin-top: 60px;
+}
+.card_img img{
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: -60px auto 0;
+  justify-content: center;
+}
+.card_info {
+  padding-bottom: 20px;
+
+}
+.fa-quote-right{
+  margin-top: 40px;
+  width: 100px;
+  color: #FF9F0D;
+}
+.card_info p{
+  margin-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #424242;
+}
+.card_info h4{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #828282;
+}
+.input-slider{
+  margin-top: 20px;
+  margin-left: 250px;
+  display: flex;
+  color: #FF9F0D;
+  
+}
+.input-slider input:hover{
+  color: #FF9F0D;
+  background-color: #FF9F0D;
+}
+
+
+
   @media (max-width: 600px) {
       .toggle-button{
           display: flex;
@@ -1005,5 +1095,186 @@ justify-content: center;
   position: absolute;
   text-align: center;
   margin-left: 150px;
+}
+.menu-text{
+  color: #f8f8f8;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.menu-text p{
+  color: #f8f8f8;
+  text-align: center;
+  position: absolute;
+  text-align: center;
+   margin-left: 50px; 
+    font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+
+  font-feature-settings: 'kern' off;
+
+  /* Primary color */
+  margin-top: 0;
+  color: #fdfdfd;
+}
+.menu-text h6{
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 4px;
+  /* identical to box height, or 125% */
+  /* margin-left: 600px; */
+  margin-top: 50px;
+  /* Primary color */
+  font-style: italic;
+  color: #FF9F0D; 
+  text-align: center;
+}
+.menu-list{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin-top: 80px;
+}
+.menu-list li p{
+  font-size: 13px;
+  padding: 10px;
+  color: #f8f8f8;
+width: 58px;
+height: 28px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.tab-links{
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  padding-right: 90px;
+  color: #004D7B;
+}
+.tab-links:hover{
+  color: #FF9F0D;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+/* .tab-links.active-link::after{
+  width: 30%;
+} */
+.menu-items-available .container{
+  justify-content: center;
+  
+}
+.vegan-image{
+  margin-left: 150px;
+}
+.vegan-image img{
+  width: 30px;
+  height: 400px;
+  display: none;
+}
+
+.menu-icons{
+
+justify-content: center;
+width: 500px;
+flex: 2;
+float: right;
+display: flex;
+width: 600px;
+flex-wrap: wrap;
+margin-left: 20px;
+position: absolute;
+}
+.menu-icons p{
+  color: #f8f8f8;
+   flex-direction: column;
+   display: flex;
+}
+.menu-1 img{
+  margin-left: 0;
+  position: absolute;
+}
+.menu-icons img{
+  
+  border-radius: 6px;
+  width: 70px;
+  height: 68px;
+  position: absolute;
+}
+.chefs{
+  display: flex;
+  margin-top: 500px;
+  text-align: center;
+}
+.chefs h1{
+  color: #FF9F0D;
+  text-align: center;
+  margin-left: 30px;
+  font-style: italic;
+  font-family: 'Great Vibes';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+}
+.chefs h2{
+  color: #f8f8f8;
+  text-align: center;
+  margin-left: 30px;
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+}
+.chefs img{
+  flex-direction: column;
+  width: 312px;
+  height: 391px;
+
+}
+.cards{
+  position: absolute;
+  width: 292px;
+  height: 191px;
+  left: 30px;
+  margin-top: 160px;
+
+}
+.card-2{
+  display: none;
+}
+.card-3{
+  display: none;
+}
+.card-4{
+  display: none;
+}
+.card-5{
+  display: none;
+}
+.chefs  button{
+width: 150px;
+height: 40px;
+margin: 0;
+margin-top: 600px;
+background-color: transparent;
+border:1px solid #FF9F0D;
+position: inherit;
 }
 }
