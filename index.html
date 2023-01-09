@@ -166,76 +166,269 @@
     <h6>Choose & pick</h6>
     <p><span>Fr</span>om Our Menu<p>
     </div>
-        <div class="menu-list">
-           <li> <p class="tab-links active-link" onclick="opentab('E-Trade')">Breakfast</p></li>
-           <li>  <p class="tab-links" onclick="opentab('Business')">lunch</p></li>
-           <li> <p class="tab-links" onclick="opentab('E-Tax-Filling')">Dinner</p></li>
-           <li> <p class="tab-links" onclick="opentab('E-Tax-Filling')">Dessert</p></li>
-           <li> <p class="tab-links" onclick="opentab('E-Tax-Filling')">Drink</p></li>
-           <li> <p class="tab-links" onclick="opentab('E-Tax-Filling')">Snack</p></li>
-           <li>  <p class="tab-links" onclick="opentab('E-Tax-Filling')">Soup</p></li>
-           
-         </div>
-        </div>
-        <div class="menu-items-available">
-    <div class="container">
-        <div class="vegan-image">
-        <img src="/img/vegan-image.png" alt="">
-    </div>
-        <div class="menu-icons">
-            <div class="menu-1">
-                <img src="/img/menu-image-1.png" alt="">
-                <p>Lettuce Leaf</p>
-                <p>Lacus nisi, et ac dapibus velit in consequat.</p>
-                <p><span>12.5$</span></p>
-            </div>
-            <div>
-                <img src="/img/menu-image-2.png" alt="">
-                <p>Lettuce Leaf</p>
-                <p>Lacus nisi, et ac dapibus velit in consequat.</p>
-                <p><span>12.5$</span></p>
-            </div>
-            <div>
-                <img src="/img/mask-image-3.png" alt="">
-                <p>Lettuce Leaf</p>
-                <p>Lacus nisi, et ac dapibus velit in consequat.</p>
-                <p><span>12.5$</span></p>
-            </div>
-            <div>
-                <img src="/img/menu-image-4.png" alt="">
-                <p>Lettuce Leaf</p>
-                <p>Lacus nisi, et ac dapibus velit in consequat.</p>
-                <p><span>12.5$</span></p>
-            </div>
-            <div>
-                <img src="/img/menu-image-5.png" alt="">
-                <p>Lettuce Leaf</p>
-                <p>Lacus nisi, et ac dapibus velit in consequat.</p>
-                <p><span>12.5$</span></p>
-            </div>
-            <div>
-                <img src="/img/menu-image-6.png" alt="">
-                <p>Lettuce Leaf</p>
-                <p>Lacus nisi, et ac dapibus velit in consequat.</p>
-                <p><span>12.5$</span></p>
-            </div>
-            <div>
-                <img src="/img/menu-image-7.png" alt="">
-                <p>Lettuce Leaf</p>
-                <p>Lacus nisi, et ac dapibus velit in consequat.</p>
-                <p><span>12.5$</span></p>
-            </div>
-            <div>
-                <img src="/img/menu-image-8.png" alt="">
-                <p>Lettuce Leaf</p>
-                <p>Lacus nisi, et ac dapibus velit in consequat.</p>
-                  <p><span>12.5$</span></p>
-            </div>
-
-        </div>
-    </div>
+    <section class = "menu">
+      <div class = "menu-container">
+        <div class = "menu-btns">
+          <button type = "button" class = "menu-btn active-btn" id = "featured">Breakfast</button>
+          <button type = "button" class = "menu-btn" id = "featured">lunch</button>
+          <button type = "button" class = "menu-btn" id = "featured">Dinner</button>
+          <button type = "button" class = "menu-btn" id = "featured">Dissert</button>
+          <button type = "button" class = "menu-btn" id = "featured">Drink</button>
+          <button type = "button" class = "menu-btn" id = "today-special">snacks</button>
+          <button type = "button" class = "menu-btn" id = "new-arrival">soup</button>
         </div>
         
+<div>
+  <div class="vegan">
+  <img src="/img/vegan-image.png" alt="">
+  </div>
+</div>
+        <div class = "food-items">
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "/img/menu-image-1.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Banana Bread With Butter & Milk</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$25.00</span>
+             
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "/img/menu-image-2.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Barbecue</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <h3 class = "food-price">$20.00</h3>
+  
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "/img/menu-image-3.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Barbecued Roasted Duck Ramen</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+
+              <h3 class = "food-price">$35.00</h3>
+          
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "/img/menu-image-4.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Bread With Seeds & Butter</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <h3 class = "food-price">$27.00</h3>
+           
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "/img/menu-image-5.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Breadfast Sandwich</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+             <span>$15.00</span>
+            
+             
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "/img/menu-image-6.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Brunch Skillet</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>        
+                <span>$15.00</span>
+             
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "/img/menu-image-7.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Chicken Breast Steaks</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "/img/menu-image-8.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Chicken Legs</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "/img/mask-image-3.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Eggplant Cannelloni</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "/img/menu-image-6.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">French Fries</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "/img/menu-image-5.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Fried Rice</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "/img/menu-image-1.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">King Prawns</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "/img/menu-image-8.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Noodles</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "/img/menu-image-2.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Cheese Pizza</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "/img/menu-image-7.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Juicy beef burger</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item featured">
+            <div class = "food-img">
+              <img src = "/img/menu-image-3.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Tacos with pulled pork</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item today-special">
+            <div class = "food-img">
+              <img src = "/img/menu-image-8.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">tiny pickles</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item new-arrival">
+            <div class = "food-img">
+              <img src = "/img/menu-image-2.png" alt = "food image">
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">tortilla chips</h2>
+              <h4 class = "food-name">Lacus nisi, et ac dapibus velit in consequat.</h4>
+              <span>$15.00</span>
+            </div>
+          </div>
+          <!-- end of item -->
+        </div>
+      </div>
+    </section>
         <div class="chefs">
             <div class="chefs-text">
      <h1>chefs</h1>
@@ -285,15 +478,102 @@
             </div>
    
            <div class="input-slider" >
-            <input style="color:yellow;" type="radio" name="image-slide" checked>
+            <input  type="radio" name="image-slide" checked>
             <input type="radio" name="image-slide">
             <input type="radio" name="image-slide">
             <input type="radio" name="image-slide">
            </div> 
            
+           
  </section>
+ <div class="documentation">
+    <div class="container">
+        <div class="process-documents">
+        <h1>Restaurant Activer Process</h1>
+        <h2><span>We</span> Document Every Food<br>
+            Bean Process untile it is saved</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque <br>
+                bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, </p>
+                <button>Read More</button>
+                <i class="fa-solid fa-circle-play "style="font-size: 4rem; margin-right:100px ;"></Video></i>
+                
+    </div>
+    <p>play video</p>
+</div>
+   </div>
  
- 
+ <section id="blog">
+    <div class="blog">
+        <h1>Blog Post</h1>
+        <h2> <span>La</span>test News & Blog</h2>
+
+
+        <div class="container">
+            <div class="card-food">
+              <div class="card-header">
+<img src="img/category-1.png" alt="">
+              </div>
+              <div class="card-body">
+                <h3>10 feb 2022</h3>
+                  Why is the Tesla Cybertruck designed the way it
+                  is?
+                </h4>
+                <p>
+                  An exploration into the truck's polarising design
+                </p>
+                <div class="user">
+                 
+                  <div class="user-info">
+                    <h5>July Dec</h5>
+                    <small>2h ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-food">
+              <div class="card-header">
+               <img src="/img/blog-2.png" alt="">
+              </div>
+              <div class="card-body">
+                <h3>10 feb 2022</h3>
+                  How to Keep Going When You Don’t Know What’s Next
+                </h4>
+                <p>
+                  The future can be scary, but there are ways to
+                  deal with that fear.
+                </p>
+                <div class="user">
+                  
+                  <div class="user-info">
+                    <h5>Eyup Ucmaz</h5>
+                    <small>Yesterday</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-food">
+              <div class="card-header">
+                <img src="/img/blog-3.png" alt="">
+              </div>
+              <div class="card-body">
+                <h3>10 feb 2022</h3>
+                <h4>
+                  10 Rules of Dashboard Design
+                </h4>
+                <p>
+                  Dashboard Design Guidelines
+                </p>
+                <div class="user">
+                  
+                  <div class="user-info">
+                    <h5>Carrie Brewer</h5>
+                    <small>1w ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+ </section>
     </main>    --> -->
 <script src="index.js"></script>
 </body>
