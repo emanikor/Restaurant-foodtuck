@@ -586,7 +586,7 @@ margin-left: 40px;
   color:#fdfdfd;
   margin: 0.6rem 0;
   box-shadow: 0 0 16px -4px rgba(0, 0, 0, 0.75);
-  display:flex ;
+  display: ;
   animation: fadeIn 2s;
 }
 @keyframes fadeIn{
@@ -609,6 +609,7 @@ margin-left: 40px;
 }
 .food-name{
   font-family: var(--Inter);
+  color:#fdfdfd;
   font-weight: 500;
   text-transform: capitalize;
 }
@@ -627,7 +628,7 @@ margin-left: 40px;
 
 .chefs{
   display: flex;
-  margin-top: 600px;
+  margin-top: 130px;
   text-align: center;
 }
 .chefs h1{
