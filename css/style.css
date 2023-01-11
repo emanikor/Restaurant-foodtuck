@@ -18,7 +18,7 @@
       background-size: cover;
       position: relative;
       width: 100%;
-      height: 100vh;
+      height: 900px;
       
   }
   .brand-title{
@@ -37,7 +37,11 @@
       margin:30px 200px ;
       transition: 0.3s;
       cursor: pointer;
-      margin-top: 80px;
+      margin-top: 0;
+  }
+.navbar-links .foodtuck h1{
+    text-align: center;
+    margin-top: 50px;
   }
   .navbar-links li{
       list-style: none;
@@ -126,7 +130,10 @@ margin-left: 10px;
     display: flex;
   }
   .hero-section .container h1{
-    margin-top: 162px;
+    
+  }
+  .hero-section .container {
+    margin-top: 193px;
   }
   .hero-section h1{
 
@@ -150,10 +157,10 @@ font-weight: 700;
 font-size: 60px;
 position: absolute;
 color: #fdfdfd;
-margin-top: 200px;
+margin-top: 60px;
   }
   .hero-section p{
-    margin-top: 350px;
+    margin-top: 230px;
   }
   button{
     width: 190px;
@@ -169,10 +176,10 @@ margin-top: 10px;
     font-size: 1rem;
   }
   .hero-section img{
-    margin-top: 100px;
+    margin-top: 108px;
    margin-left: 150px;
-max-width: 790px;
-height: 590px;
+max-width: 877px;
+max-height: 670px;
 
   }
   .about-us p{
@@ -1301,6 +1308,16 @@ margin-bottom: 4px;
   .navbar-links ul  input::hover{
     color: none;
   }
+  .navbar{
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.911) , rgba(2, 2, 2, 0.911)),url('/img/background.png');
+      background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
   .hero-section{
     position: absolute;
     margin-top: 2px;
@@ -1308,8 +1325,15 @@ margin-bottom: 4px;
     flex-direction: column;
     display: flex;
   }
-  .hero-section .container h1{
-    margin-top: 80px;
+  .hero-section .container{
+    margin-top: 10px;
+  }
+  .navbar-links .foodtuck h1{
+   
+    margin-left: 30px;
+    margin-top: 50px;
+    display: block;
+    color: #fdfdfd;
   }
   .hero-section h1{
     text-align: center;
@@ -1317,20 +1341,20 @@ font-family: 'Great Vibes';
 font-style: italic;
 font-weight: 400;
 font-size: 20px;
-margin-top: 150px;
+margin-top: 70px;
 position: absolute;
 margin-left: 120px;
 
   }
   .hero-section p{
-    margin-top: 230px;
+    margin-top: 180px;
   }
   .hero-section h2{
     font-family: 'Helvetica';
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
-margin-top: 140px;
+margin-top: 110px;
 margin-left: 80px;
 text-align: center;
 color: #fdfdfd;
@@ -1354,8 +1378,8 @@ margin-left: 130px;
   .hero-section img{
     margin-top: 10px;
    margin-left: 10px;
-max-width: 400px;
-height: 300px;
+max-width: 450px;
+height: 350px;
 
   }
   .about-us p{
@@ -1373,6 +1397,11 @@ height: 300px;
       margin-left: 20px;
     flex-direction: column;
 
+  }
+  .image-1{
+    margin-left: 6px;
+    margin-top: 10px;
+    
   }
   span{
     color: #FF9F0D;
@@ -1928,18 +1957,18 @@ font-size: 0.8rem;
 }
  .blog{
   margin-top: 10px;
-  margin-left: 2px;
+  margin-left: 0px;
 }
 .blog h1  {
   font-size: 24px;
-  
+  font-style: italic;
+  margin-left: 0;
 }
 .blog h2{
   font-weight: 600;
   font-size: 30px;
   line-height: 40px;
   margin-left: 10px;
-  align-items: flex-start;
 }
  .footer {
  margin-top: 27px;
@@ -1959,6 +1988,7 @@ font-size: 0.8rem;
   width: 246px;
   margin: 5px;
   height: 350px;
+  margin-left: 20px;
 }
 .card-header img {
   width: 245px;
