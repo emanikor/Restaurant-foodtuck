@@ -69,3 +69,12 @@ These requirements won’t affect the usability of the system but will make the 
  
  ## demo
  https://github.com/emanikor/Restaurant-foodtuck/issues/1#issue-1533823459
+
+
+![restaurant-image-desk](https://user-images.githubusercontent.com/87859876/212545366-5ec79556-24c0-42df-b155-dd3468fb00a9.PNG)
+![29](https://user-images.githubusercontent.com/87859876/212545383-257e2a10-d744-4e85-a91d-d3a1708d6314.PNG)
+![3](https://user-images.githubusercontent.com/87859876/212545394-79fb699b-4649-4686-85b9-e003b1733c67.PNG)
+![4](https://user-images.githubusercontent.com/87859876/212545397-6297cd90-09a4-4975-824e-d2e7518e3080.PNG)
+![5](https://user-images.githubusercontent.com/87859
+![6](https://user-images.githubusercontent.com/87859876/212545430-f0a6a96c-77d4-42cf-85cd-170191b29f1a.PNG)
+876/212545398-1b802229-ddf1-40be-9f36-00d9a30e4b34.PNG)
