@@ -1672,7 +1672,7 @@ color: #FF9F0D;
   line-height: 24px;
   color: #FFFFFF;
   position: absolute;
-  margin-top: 250px;
+  margin-top: 280px;
   width: 400px;
 }
 .services-text h5{
@@ -1706,7 +1706,7 @@ justify-content: center;
 .box{
   display: flex;
   position: absolute;
-  margin-top: 430px;
+  margin-top: 450px;
 }
 .other-services{
   background-image: linear-gradient(to right, rgba(32, 32, 32, 0.911) , rgba(24, 24, 24, 0.911)),url('img/fish-image.png');
@@ -2253,50 +2253,14 @@ color: #fdfdfd;
   position: absolute;
   color: #FF9F0D;
 }
-.form-box{
-  padding: px;
-  border-radius: 5px;
-  background-color: #f8f8f8;
-  margin-top: 22px;
-  width: 300px;
-  height: 35px;
-  margin-left: 0px;
-}
-.form-box input {
-  font-size: 16px;
-  color: #ffffff;
-  padding: 15px 15px;
-  font-size: 20px;
-  border: none;
-  outline: none;
-  background: #FF9F0D;
-  height: 35px;
-  max-width: 200px;
-}
-.form-box button{
-  color: #FF9F0D;
-  padding: 1px 1px;
-  font-size: 13px;
-  border: none;
-  border-radius: 3px;
-  background-color: #f8f8f8;
-  cursor: pointer;
-  transition: .3s;
-  height: 14px;
-  width: 30px;
 
-}
-.form-box button:hover{
-  background: #353333;
-  height: 55px;
-}
 .footer {
   display: flex;
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: #2f2f2f;
 
- margin-top: 200px;
+ margin-top: 2px;
 }
 .copy-right ul{
   display: none;
