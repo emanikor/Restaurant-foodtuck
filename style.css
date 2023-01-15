@@ -962,16 +962,7 @@ text-align: center;
 .user-info small {
   color: #545d7a;
 }
-.box-email{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10vh;
-  position: absolute;
-  margin-top: 0;
-  margin-left: 840px;
-  width: 450px;
-}
+
 .email-contact{
  align-items: flex-start;
  margin-left: 359px;
@@ -994,6 +985,130 @@ line-height: 4px;
 /* identical to box height, or 125% */
 color: #fdfdfd;
 }
+
+.email-box .container {	
+	width: 300px;
+	height: 300px;
+	margin: auto;
+  
+  margin-left: 60rem;
+}
+
+.login_bar {
+	width: 300px;
+	height: 50px;
+	background: white;
+	border-radius: 10px;
+	top: 50%;
+	position: relative;
+  z-index: 1;
+	overflow: hidden;
+}
+
+.login {
+	background: transparent;
+	position: absolute;
+	height: 100%;
+	width: 190px;
+	padding-left: 10px;
+	text-align: left;
+	line-height: 50px;
+	vertical-align: middle;
+	z-index: 10;
+	-webkit-transition: transform 0.2s ease-in-out 0s;
+	   -moz-transition: transform 0.2s ease-in-out 0s;
+	     -o-transition: transform 0.2s ease-in-out 0s;
+	        transition: transform 0.2s ease-in-out 0s;
+}
+
+.login_active {
+	-webkit-transform: translateX(300px);
+	   -moz-transform: translateX(300px);
+	    -ms-transform: translateX(300px);
+	     -o-transform: translateX(300px);
+	        transform: translateX(300px);
+}
+
+.subscribe_button:hover{
+	background-color: #222A33;
+	cursor:pointer;
+}
+
+.subscribe_button {
+	background:#FF9F0D;
+	position: absolute;
+	top: -50px;
+	left: 200px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 150px;
+	width: 100px;
+	text-align: center;
+	line-height: 150px;
+	vertical-align: middle;	
+	color: white;
+	-webkit-transition: transform 0.5s ease 0s;
+	   -moz-transition: transform 0.5s ease 0s;
+	     -o-transition: transform 0.5s ease 0s;
+	        transition: transform 0.5s ease 0s;
+}
+
+.subscribe_button_active{
+	-webkit-transform: translateY(50px);
+	   -moz-transform: translateY(50px);
+	    -ms-transform: translateY(50px);
+	     -o-transform: translateY(50px);
+	        transform: translateY(50px);
+}
+
+.subscribing{
+	background: #CDD4DC;
+	height: 100%;
+	width: 300px;
+	z-index: 5;
+	position: absolute;
+	left:-300px;
+	display: inline-block;
+	-webkit-transition: transform 1s ease 0s ;
+	   -moz-transition: transform 1s ease 0s ;
+	     -o-transition: transform 1s ease 0s ;
+	        transition: transform 1s ease 0s ;
+}
+
+.subscribing_active {
+	-webkit-transform: translateX(300px);
+	   -moz-transform: translateX(300px);
+	    -ms-transform: translateX(300px);
+	     -o-transform: translateX(300px);
+	        transform: translateX(300px);
+}
+
+.thanks{
+	background: transparent;
+	height: 100%;
+	width: 300px;
+	z-index: 5;
+	text-align: left;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-left: 10px;
+	position: absolute;
+	top:50px;
+	display: inline-block;
+	-webkit-transition: transform 0.5s ease 0s ;
+	   -moz-transition: transform 0.5s ease 0s ;
+	     -o-transition: transform 0.5s ease 0s ;
+	        transition: transform 0.5s ease 0s ;
+}
+
+.thanks_active {
+	-webkit-transform: translateY(-50px);
+	   -moz-transform: translateY(-50px);
+	    -ms-transform: translateY(-50px);
+	     -o-transform: translateY(-50px);
+	        transform: translateY(-50px);
+}
+
 .break-1{
   max-width: 800px;
   justify-content: center;
@@ -1003,47 +1118,14 @@ color: #fdfdfd;
   position: absolute;
   color: #FF9F0D;
 }
-.form-box{
-  padding: px;
-  border-radius: 5px;
-  background-color: #f8f8f8;
-  margin-top: 220px;
 
-}
-.form-box input {
-  font-size: 16px;
-  color: #ffffff;
-  padding: 15px 15px;
-  font-size: 20px;
-  border: none;
-  outline: none;
-  background: #FF9F0D;
-  
-  max-width: 200px;
-}
-.form-box button{
-  color: #FF9F0D;
-  padding: 10px 10px;
-  font-size: 20px;
-  border: none;
-  border-radius: 3px;
-  background-color: #f8f8f8;
-  cursor: pointer;
-  transition: .3s;
-  height: 20px;
-
-}
-.form-box button:hover{
-  background: #353333;
-  height: 55px;
-}
 .footer {
   display: flex;
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: #2f2f2f;
 
- margin-top: 327px;
+ margin-top: 37px;
 }
 
 .footer > * {
