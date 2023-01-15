@@ -1627,7 +1627,7 @@ justify-content: center;
   margin-top: 430px;
 }
 .other-services{
-  background-image: linear-gradient(to right, rgba(32, 32, 32, 0.911) , rgba(24, 24, 24, 0.911)),url('img/Restaurant-1.png');
+  background-image: linear-gradient(to right, rgba(32, 32, 32, 0.911) , rgba(24, 24, 24, 0.911)),url('img/fish-image.png');
   background-position: center;
   background-size: cover;
   position: relative;
