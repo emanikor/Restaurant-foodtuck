@@ -65,7 +65,7 @@ These requirements won’t affect the usability of the system but will make the 
 ### technologies
  1.  HTML
  2. CSS - (framework)
- 3. Java scripts - react,next
+ 3. Java scripts 
  
  ## demo
  
