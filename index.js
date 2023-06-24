@@ -1,87 +1,75 @@
 
-//toggle button for navbar
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+const data = [{
+    id: 1,
+    name: "conny iamazon",
+    image: "images/people03.jpg",
+    job: "Front-end developer",
+    text: "Working with UNI-SOKO ecommerce was a game-changer for our web development project. Their expertise and attention to detail resulted in a visually stunning and highly functional website."
+},
+{
+    id: 2,
+    name: "alexa white",
+    image: "images/user-1.png",
+    job: "Web designer",
+    text: "Working with UNI-SOKO ecommerce designers was an absolute pleasure. Their creative vision and attention to detail brought our website to life. They understood our brand and translated it into a visually stunning design that perfectly captured our message. "
+},
+{
+    id: 3,
+    name: "collins steve",
+    image: "images/user-2.png",
+    job: "software engineer",
+    text: "I had the privilege of collaborating with software engineer at uni-soko on our e-commerce project, and their expertise and dedication were instrumental in its success. Their deep understanding of software engineering principles and e-commerce best practices enabled us to build a robust and scalable platform"
+},
+{
+    id: 4,
+    name: "jane ayo",
+    image: "images/user-3.png",
+    job: "backend developer",
+    text: "consistently delivered clean and well-structured code, ensuring the reliability and performance of our application. Their attention to detail and meticulous testing approach helped us identify and resolve potential issues proactively."
+}];
 
-toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active');
+const img = document.getElementById('personimg');
+const author = document.getElementById('author');
+const job = document.getElementById('job');
+const info = document.getElementById('info');
+const prevBtn = document.querySelector('.fa-chevron-left')
+const nextBtn = document.querySelector('.fa-chevron-right')
 
-  
+// set starting item
+let currentItem = 0;
+
+// load initial
+window.addEventListener("DOMContentLoaded", function() {
+    showPerson();
+});
+
+// show person
+function showPerson (){
+    const item = data[currentItem];
+    img.src = item.image;
+    author.textContent = item.name;
+    job.textContent = item.job;
+    info.textContent = item.text;
+}
+
+// show next person
+
+nextBtn.addEventListener('click', function(){
+   currentItem++
+   if(currentItem > data.length -1 )
+   currentItem = 0;
+   showPerson(currentItem);
 })
 
-//foodmenu button---
-const menuBtns = document.querySelectorAll('.menu-btn');
-const foodItems = document.querySelectorAll('.food-item');
-
-let activeBtn = "featured";
-
-showFoodMenu(activeBtn);
-
-menuBtns.forEach((btn) => {
-    btn.addEventListener('click', () => {
-        resetActiveBtn();
-        showFoodMenu(btn.id);
-        btn.classList.add('active-btn');
-    });
-});
-
-function resetActiveBtn(){
-    menuBtns.forEach((btn) => {
-        btn.classList.remove('active-btn');
-    });
-}
-
-function showFoodMenu(newMenuBtn){
-    activeBtn = newMenuBtn;
-    foodItems.forEach((item) => {
-        if(item.classList.contains(activeBtn)){
-            item.style.display = "grid";
-        } else {
-            item.style.display = "none";
-        }
-    });
-}
+// show prev person
+prevBtn.addEventListener('click', function(){
+    currentItem--;
+    if(currentItem < 0 ){
+        currentItem = data.length-1;
+    }
+    
+    showPerson();
+ })
 
 
-//subscribing button
-var subscribe_button = document.querySelector(".subscribe_button");
 
-subscribe_button.addEventListener('click', function(){
-	var subscribing = document.querySelector(".subscribing");
-	var thanks = document.querySelector(".thanks");
-	var login = document.querySelector(".login");
-
-	subscribing.classList.add("subscribing_active");
-	subscribe_button.classList.add("subscribe_button_active");
-	setTimeout(function(){
-		login.classList.add("login_active");
-	}, 1200);
-	setTimeout(function(){
-		thanks.classList.add("thanks_active");
-	}, 1400);
-
-	setTimeout(function(){
-		thanks.classList.remove("thanks_active");
-		login.classList.remove("login_active");
-		subscribing.classList.remove("subscribing_active");
-		subscribe_button.classList.remove("subscribe_button_active");
-	}, 4000);
-});
-// // Wrap every letter in a span
-// var textWrapper = document.querySelector('.ml6 .letters');
-// textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-// anime.timeline({loop: true})
-//   .add({
-//     targets: '.ml6 .letter',
-//     translateY: ["1.1em", 0],
-//     translateZ: 0,
-//     duration: 750,
-//     delay: (el, i) => 50 * i
-//   }).add({
-//     targets: '.ml6',
-//     opacity: 0,
-//     duration: 1000,
-//     easing: "easeOutExpo",
-//     delay: 1000
-//   });

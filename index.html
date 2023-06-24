@@ -4,215 +4,231 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image" href="img/menu-image-1.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <title>Restaurant-foodtuck</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.2/swiper-bundle.min.js" integrity="sha512-+z66PuMP/eeemN2MgRhPvI3G15FOBbsp5NcCJBojg6dZBEFL0Zoi0PEGkhjubEcQF7N1EpTX15LZvfuw+Ej95Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" class="">
+    <title>Restaurant </title>
 </head>
 <body>
-  <header>
+   <!--header section--> 
+ <!--header section--> 
+
+    <!-- <nav class="navbar">
+        <ul class="navbar-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">pages</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    <div class="navbar-brand"><h1>FoodTuck</h1></div>
+
+    <div class="input">
+      <input type="text" name="text" id="input-Field" placeholder="Search..">
+    </div>
+    
+    <div class="icons">
+      <div class="fas fa-shopping-cart cart" id="cart-btn"></div>
+    </div>
+  </nav> -->
+
+   <!--header section--> 
+   <header class="header">
+    <a href="#" class="logo"><h1>Food<span>TuCK</span></h1></a>
     <nav class="navbar">
-      
-        <a href="#" class="toggle-button"> 
-            <span class="bars"></span>
-            <span class="bars"></span>
-            <span class="bars"></span>
-        </a>
-        <div class="foodtuck">
-          <h1><span>food</span>Tuck</h1>
+      <a href="home.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+
+    </nav>
+    <div class="icons">
+        <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa-regular fa-user" id="profile-btn"></div>
+            <div class="fas fa-shopping-cart cart" id="cart-btn"></div>
+            <div class="fas fa-bars"   id="menu-btn"></div>
+    </div>
+    <div class="search-form">
+     <input type="search" id="search-box" placeholder="search here.."> 
+     <label for="search-box" class="fas fa-search"></label>   
+            </div> 
+            <div class="cartbox">
+                <h2 class="cart-title">Your l.Cart</h2>
+                <!-- content -->
+                <div class="cart-content">
+                    <div class="cart-boxItem">    
+             </div>
+                </div>
+                <!-- total -->
+                <div class="total">
+                    <div class="total-title">total</div>
+                    <div class="total-price">0</div>
+                </div>
+                <!-- buy buuton -->
+                <button type="button" class="btn-buy">Check out</button>
+                <!-- cart close -->
+                <button id="close-cart">x</button>
         </div>
-        
-        <div class="navbar-links">
+           </header> 
+
+  
+
+       <!-- home section -->
+
+<section class="home">
+    <div class="home-wrapper  ">
+        <div class="content paddings">
+            <h3 class="home-heading header-italic paddings">Its Quick & Amusing</h3>
+            <h2 class="home-heading-2  header-titles"><span>Th</span>e Art of speed <br>
+                food Quality</h2>
+                <p class="food-text paddings">Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                    Varius sed pharetra dictum neque massa congue</p>
+                    
+            <button class="foodbtn">See menu</button>
           
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <label for="">
-                <input type="text" name="search"placeholder="search.." >
-              </label>
-                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-bag-shopping"></i>
-            
-            </ul>
-        </div>
-      
-     
-        
-      </nav>
-  </header>
-  <!----home-section-->
-  <div class="hero-section">
-    <div class="container">
-     <h1>Its Quick & Amusing</h1>
-        <h2><span>Th</span>e Art of speed <br>
-            food Quality</h2>
-        <div class="lorem">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
-            Varius sed pharetra dictum neque massa congue</p>
-            
-        </div>
-        
-            <button>See menu</button>
+    </div>
+
+    <div class="body-1-image">
+        <img src="images/hero.png" alt="">  
+</div>
             
     </div>
-    <img src="img/hero.png" alt="">  
-</div>     
-     <!---about-->
-    <main>
-       
-    <section id="about">
-        
-        <div class="about-section">
-            <div class="container">
-                <div class="about-us">
-                    <p>About us</p>
-                </div>
-            <h3><span>We</span> Create the best<br> foody product</h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam <br>pellentesque bibendum non dui volutpat fringilla bibendum. 
-                Urna, elit<br> augue urna, vitae feugiat pretium donec id elementum.
-                 Ultrices mattis<br> sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in <br>consequat</p>
-                 <p>
-                    <li>Lacus nisi, et ac dapibus sit eu velit in consequat</li>
-                    
-                    <li>Lacus nisi, et ac dapibus sit eu velit in consequat</li>
-                    
-                    <li>Lacus nisi, et ac dapibus sit eu velit in consequat</li>
-                 </p>
-                
-                
-                <button>Read More</button>
-                
-        
-        </div>
-
-        <img class="image-1" src="img/about-image 1.png" alt="about-image">
-     <div class="images-about">
-        <img src="img/about-image 2.png" alt="about-image">
-        <img src="img/about-image 3.png" alt="about-image">
-    
-            </div>
-
-        </div>
-        
    
-        <div class="category">
-            <div class="food">
-                <p>Food category</p>
-            </div>
-            <h4><span>Ch</span>oose food item</h4>
+</div>     
+    </div>
+</section>
 
-                <img src="img/category-1.png" alt="">
-                <img src="img/category-2.png" alt="">
-                <img src="img/category-3.png" alt="">
-                <img src="img/category-4.png" alt="">
-            
-        </div>
-    </section>
-    <!-----services-->
-   <section id="about">
-           <div class="services">
-              <div class="container">
-                <div class="taste-1">
-                    <img src="img/taste-1.png" alt="">
-                </div>
-                <div class="taste-2">
-                    <img src="img/taste-2.png" alt="">
-                </div>
-                <div class="taste-3">
-                    <img src="img/taste-3.png" alt="">
-                </div>
-                <div class="taste-4">
-                    <img src="img/taste-4.png" alt="">
-                </div>
-                <div class="taste-5">
-                    <img src="img/taste-5.png" alt="">
-                </div>
-                <div class="taste-6">
-                    <img src="img/taste-6.png" alt="">
-                </div>
-              </div>
-              <div class="services-text">
-                <h6>Why Choose us</h6>
-                <h5><span>Ex</span>tra ordinary taste
-                    And Experienced </h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam<br>
-                         pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit<br>
-                          augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis <br>
-                          sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in<br>
-                           consequat.</p>
-                           <div class="box">
-                           
-                               <div class="box-1">
-                              
-                                <img src="img/Hamburger.png" alt="">
-                                     <h2>fast-food</h2>
-                               </div>
-                               <div class="box-2">
-                               <img src="img/Cookie.png"">
-                               <h2>lunch</h2>
-                               </div>
-                               <div class="box-3">
-                                <img src="" alt="">
-                                <h2>Dinner</h2>
-                               </div>
-                            </div>
-                            <div class="experience">
-                              <img src="img/expe.png" alt="">
-                           </div>
-             </div>
-           </div>
- </section>
- <!--menu-->
- 
- <section id="menu"> 
-    <div class="other-services">
-        <div class="container">
+
+<!-- about section  -->
+<section class="about" id="about">
+
+    <div class="row">
+
+       <div class="content">
+        <h3 class="home-heading about-text">About us</h3>
+        <h2 class="header-titles2">We Create the best<br>
+            foody product
+            </h2>
+        <p class="food-text  about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Quisque diam <br> pellentesque bibendum non dui volutpat fringilla bibendum.
+              Urna, elit<br> augue urna, vitae feugiat pretium donec id elementum.
+               Ultrices mattis <br>sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in <br>consequat.</p>
+               
+                <l1>  Lacus nisi, et ac dapibus sit eu velit in consequat. chefs</l1><br>
+                <l1>  Quisque diam pellentesque bibendum non dui volutpat fringilla </l1><br>
+                <l1> Lorem ipsum dolor sit amet, consectetur adipiscing elit</l1><br>
           
-          <div class="otherimages1">
-          <img src="img/chef-1.png" alt="">
-          <div class="imagesbody">
-            <h1>Professional Chefs</h1>
-            <p>420</p>
-          </div>
+                    <div class="about-btn">
+                <button class="foodbtn ">Read More</button>
+              </div>
         </div>
-        <div class="otherimages2">
-          <img src="img/chef-2.png" alt="">
-          <div class="imagesbody">
-            <h1>Items Of Food</h1>
-            <p>320</p>
-          </div>
+        <div class="about-image">
+            <img src="images/about-image 1.png" alt="">
+            <img src="images/about-image 2.png" alt="">
+            <img src="images/about-image 3.png" alt="">
+          
         </div>
-        <div class="otherimages3">
-          <img src="img/chef-3.png" alt="">
-          <div class="imagesbody">
-            <h1>Years Of Experienced</h1>
-            <p>30+</p>
-          </div>
+    </div>
+    
+   </section>
+   <section class="flexCenter paddings-section category">
+    <div class="category-container">
+       <h3 class="home-heading"> Food Category</h3>
+        <h4 class="header-titles2">Choose food item</h4>
+    <div class="paddings  category-image ">
+            <img src="images/category-1.png" alt="">
+            <img src="images/category-2.png" alt="">
+            <img src="images/category-3.png" alt="">
+            <img src="images/category-4.png" alt="">
         </div>
-        <div class="otherimages4">
-          <img src="img/chef-4.png" alt="">
-          <div class="imagesbody">
-                <h1>Happy Customers</h1>
+    </div>
+   </section>
+
+   <section class="flexCenter paddings  service ">
+    <div class="  service-container">
+        <div class="image-services">
+            <img src="images/taste-1.png" alt="">
+            <img src="images/taste-2.png" alt="">
+            <img src="images/taste-3.png" alt="">
+            <img src="images/taste-4.png" alt="">
+            <img src="images/service-img.png" alt="">
+            <img src="images/taste-6.png" alt="">
+        
+        </div>
+        <div class=" flexColStart services-content">
+            <h6 class="home-heading">Why Choose us</h6>
+            <h5 class="header-titles2">Extra ordinary taste
+                And Experienced </h5>
+                <p class="food-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam<br>
+                     pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit<br>
+                      augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis <br>
+                      sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in<br>
+                       consequat.</p>
+                       <div class="box">
+                       
+                           <div class="box-1">
+                          
+                            <img src="images/Watch.png" alt="">
+                                 <h2 class="food-text">fast-food</h2>
+                           </div>
+                           <div class="box-1 box-mid">
+                           <img src="images/Watch.png">
+                           <h2 class="food-text">lunch</h2>
+                           </div>
+                           <div class="box-1">
+                            <img src="images/Watch.png" alt="">
+                            <h2 class="food-text">Dinner</h2>
+                           </div>
+                        </div>
+                        <div class="experience">
+                          <img src="images/experience.png" alt="">
+                       </div>
+         </div>
+       </div>
+    </div>
+   </section>
+   <div class="flexCenter banner">
+    <div class="paddings-section paddings container">
+        <div class="gridCenter gridWidth content">
+            <div class=" group">
+                <img src="images/Group1.png" alt="">
+                <h3>Professional Chefs</h3>
+                <p>420</p>
+
+            </div>
+            <div class="group">
+                <img src="images/Group2.png" alt="">
+                <h3>items of food</h3>
+                <p>320</p>
+            </div>
+            <div class="group">
+                <img src="images/Group3.png" alt="">
+                <h3>Years Of Experience</h3>
+                <p>30+</p>
+                
+            </div>
+            <div class="group">
+                <img src="images/Group4.png" alt="">
+                <h3>happy clients </h3>
                 <p>220</p>
-          </div>
+            </div>
         </div>
-      </div>
-        </div>
-</div>
+    </div>
+   </div>
+   
+   
    <div class="menu-text">
-    <h6>Choose & pick</h6>
-    <p><span>Fr</span>om Our Menu<p>
+    <h6 class="  flexCenter home-heading">Choose & pick</h6>
+    <p class=" flexCenter header-titles2"><span>Fr</span>om Our Menu<p>
     </div>
     <section class = "menu">
-      <div class = "menu-container">
+      <div class = " menu-container">
         <div class = "menu-btns">
-          <button type = "button" class = "menu-btn active-btn" id = "featured">Breakfast</button>
-          <button type = "button" class = "menu-btn" id = "featured">lunch</button>
+         <button type = "button" class = "menu-btn active-btn" id = "featured">Breakfast</button>
+           <button type = "button" class = "menu-btn" id = "featured">lunch</button>
           <button type = "button" class = "menu-btn" id = "featured">Dinner</button>
           <button type = "button" class = "menu-btn" id = "featured">Dissert</button>
           <button type = "button" class = "menu-btn" id = "featured">Drink</button>
@@ -226,9 +242,9 @@
         <div class = "food-items">
          
           <!-- item -->
-          <div class = "food-item featured">
+          <div class = " flexColstart food-item featured">
             <div class = "food-img">
-              <img src = "img/menu-image-1.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Banana Bread With Butter & Milk</h2>
@@ -242,7 +258,7 @@
           <!-- item -->
           <div class = "food-item today-special">
             <div class = "food-img">
-              <img src = "img/menu-image-2.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Barbecue</h2>
@@ -251,12 +267,11 @@
   
             </div>
           </div>
-          <!-- end of item -->
-
+          
           <!-- item -->
           <div class = "food-item new-arrival">
             <div class = "food-img">
-              <img src = "img/menu-image-3.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Barbecued Roasted Duck Ramen</h2>
@@ -270,7 +285,7 @@
           <!-- item -->
           <div class = "food-item featured">
             <div class = "food-img">
-              <img src = "img/menu-image-4.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Bread With Seeds & Butter</h2>
@@ -284,7 +299,7 @@
           <!-- item -->
           <div class = "food-item today-special">
             <div class = "food-img">
-              <img src = "img/menu-image-5.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Breadfast Sandwich</h2>
@@ -299,7 +314,7 @@
           <!-- item -->
           <div class = "food-item new-arrival">
             <div class = "food-img">
-              <img src = "img/menu-image-6.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Brunch Skillet</h2>
@@ -313,7 +328,7 @@
           <!-- item -->
           <div class = "food-item featured">
             <div class = "food-img">
-              <img src = "img/menu-image-7.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Chicken Breast Steaks</h2>
@@ -326,7 +341,7 @@
           <!-- item -->
           <div class = "food-item today-special">
             <div class = "food-img">
-              <img src = "img/menu-image-8.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Chicken Legs</h2>
@@ -339,7 +354,7 @@
           <!-- item -->
           <div class = "food-item new-arrival">
             <div class = "food-img">
-              <img src = "img/menu-image-7.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Eggplant Cannelloni</h2>
@@ -352,7 +367,7 @@
           <!-- item -->
           <div class = "food-item featured">
             <div class = "food-img">
-              <img src = "img/menu-image-6.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">French Fries</h2>
@@ -365,7 +380,7 @@
           <!-- item -->
           <div class = "food-item today-special">
             <div class = "food-img">
-              <img src = "img/menu-image-3.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Fried Rice</h2>
@@ -378,7 +393,7 @@
           <!-- item -->
           <div class = "food-item new-arrival">
             <div class = "food-img">
-              <img src = "img/menu-image-1.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">King Prawns</h2>
@@ -391,7 +406,7 @@
           <!-- item -->
           <div class = "food-item featured">
             <div class = "food-img">
-              <img src = "img/menu-image-5.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Noodles</h2>
@@ -404,7 +419,7 @@
           <!-- item -->
           <div class = "food-item today-special">
             <div class = "food-img">
-              <img src = "img/menu-image-2.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Cheese Pizza</h2>
@@ -417,7 +432,7 @@
           <!-- item -->
           <div class = "food-item new-arrival">
             <div class = "food-img">
-              <img src = "img/menu-image-3.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Juicy beef burger</h2>
@@ -430,7 +445,7 @@
           <!-- item -->
           <div class = "food-item featured">
             <div class = "food-img">
-              <img src = "img/menu-image-4.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">Tacos with pulled pork</h2>
@@ -443,7 +458,7 @@
           <!-- item -->
           <div class = "food-item today-special">
             <div class = "food-img">
-              <img src = "img/menu-image-8.png" alt = "food image">
+              <img src = "images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">tiny pickles</h2>
@@ -456,7 +471,7 @@
           <!-- item -->
           <div class = "food-item new-arrival">
             <div class = "food-img">
-              <img src = "img/menu-image-6.png" alt = "food image">
+              <img src = " images/menu-image-6.png" alt = "food image">
             </div>
             <div class = "food-content">
               <h2 class = "food-name">tortilla chips</h2>
@@ -467,269 +482,256 @@
           <!-- end of item -->
         </div>
       </div>
-    </section>
-        <div class="chefs">
-            <div class="chefs-text">
-     <h1>chefs</h1>
-     <h2><span>Me</span>et Our Chefs</h2>
-    </div>
-          <div class="cards-chef">
-            <div class="card-1">
-             <img src="img/chef-images-1.png" alt="">
-            </div>
-            <div class="card-2">
-                <img src="img/chef-image-2.png" alt="">
-               </div>
-               <div class="card-3">
-                <img src="img/chef-image-3.png" alt="">
-               </div>
-               <div class="card-4">
-                <img src="img/chef-image-4.png" alt="">
-               </div>
 
-          </div>
-          <button> see more</button>
-        </div>
-        <div class="testimonials">
-            <h1>Testimonials</h1>
-            <h2>What our Clients say </h2>
-        </div>
-        <div class="wrapper">
-            <div class="card">
-                <div class="card_img">
-                <img src="img/testimonials-image.png" alt="">
-            </div>
-            <div class="card_info">
-                <i class="fa-sharp fa-solid fa-quote-right"></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                 Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum.
-                  Urna, elit augue urna, vitae feugiat pretium donec id elementum. 
-                  Ultrices mattis sed vitae mus risus.
-                 Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
-                 <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <h3>Alamin Hasan</h3>
-                    <h4>food specialist</h4>
-                </div>
-            </div>
-   
-           <div class="input-slider" >
-            <input  type="radio" name="image-slide" checked>
-            <input type="radio" name="image-slide">
-            <input type="radio" name="image-slide">
-            <input type="radio" name="image-slide">
-           </div> 
-           
-           
- </section>
- <div class="documentation">
-    <div class="container">
-        <div class="process-documents">
-        <h1>Restaurant Activer Process</h1>
-        <h2><span>We</span> Document Every Food<br>
-            Bean Process untile it is saved</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque <br>
-                bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, </p>
-                <button>Read More</button>
-                <i class="fa-solid fa-circle-play "style="font-size: 4rem; margin-right:100px ;"></Video></i>
-                
-    </div>
-    <p>play video</p>
-</div>
-   </div>
+
+  
+          
+   </section>
  
- <section id="blog">
-    <div class="blog">
-        <h1>Blog Post</h1>
-        <h2> <span>La</span>test News & Blog</h2>
-
-
-        <div class="container">
-            <div class="card-food">
-              <div class="card-header">
-<img src="img/category-1.png" alt="">
-              </div>
-              <div class="card-body">
-                <h3>10 feb 2022</h3>
-                 
-                </h4>
-                <p>Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis
-                </p>
-                <div class="user">
-                 
-                  <div class="user-info">
-                    <h5>July Dec</h5>
-                    <small>2h ago</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card-food">
-              <div class="card-header">
-               <img src="img/blog-2.png" alt="">
-              </div>
-              <div class="card-body">
-                <h3>10 feb 2022</h3>
-                 
-                <p>
-                  Morbi Sodales Tellus Elit, In Blandit Risus Suscipit A
-                </p>
-                <div class="user">
-                  
-                  <div class="user-info">
-                    <h5>Eyup Ucmaz</h5>
-                    <small>Yesterday</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card-food">
-              <div class="card-header">
-                <img src="img/blog-3.png" alt="">
-              </div>
-              <div class="card-body">
-                <h3>10 feb 2022</h3>
-                <p>
-                  Curabitur rutrum velit ac congue malesuada
-                </p>
-                <div class="user">
-                  
-                  <div class="user-info">
-                    <h5>Carrie Brewer</h5>
-                    <small>1w ago</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-    </div>
-    <div class="email-contact" id="contact">
-      <h3><span>St</span>ill You Need Our Support ?</h3>
-      <p>Don’t wait make a smart & logical quote here. Its pretty easy.</p>
-    </div>
-    <div class="email-box">
-    <div class="container">
-      <div class="login_bar">
-        <span class="login">super-email@gmail.com</span>
-        <span class="subscribe_button" onclick="subscribeOnClick()">subscribe</span>
-        <span class="subscribing"></span>
-        <span class="thanks"> Thank you. You have been subscribed</span>
+   
+   <div class=" paddings-section chefs">
+    <h2 class="flexCenter home-heading ">chefs</h2>
+    <h3 class="flexCenter paddings header-titles">Meet our chefs</h3>
+    <div class="card-chef">
+      <div class="cardChef-item">
+        <img src="images/chef-images-1.png" alt="">
+        <div class="content">
+           <h4 class="food">D.EstWood</h4>
+           <p>chief chef</p>
+        </div>
+      </div>
+      <div class="cardChef-item">
+        <img src="images/chef-image-2.png" alt="">
+        <div class="content">
+        <h4>D.scoriesh</h4>
+        <p>Assistance Chef</p>
+        </div>
+      </div>
+      <div class="cardChef-item">
+        <img src="images/chef-image-3.png" alt="">
+        <div class="content">
+           <h4>M William</h4>
+           <p>Advertising Chef</p>
+        </div>
+      </div>
+      <div class="cardChef-item">
+        <img src="images/chef-image-4.png" alt="">
+        <div class="content">
+         <h4>W.Readford</h4>
+         <p>Chef</p>
+        </div>
+      
       </div>
     </div>
+<div class="flexCenter paddings-section chefsButton"> 
+  <button class=" foodbtn chef-btn">see more</button>
+</div>
+   </div>
+
+
+   <!-- testimonilas -->
+<!-- <section class="container">
+  <div class="title">
+      <h1 class="home-heading">Testimonials</h1>
+      <h3 class="header-titles">What Our Client say</h3>
+<div class="underline"></div>
+  </div>
+
+  <article class="review">
+    <div class="image-container">
+      <img src="images/people03.jpg" id="personimg" alt="">
+    </div>
+    <h1 id="author">conny ekai</h1>
+    <p id="job">front-end dev</p>
+    <p id="info"><i class="fa-solid fa-quote-left"></i> 
+      Working with UNI-SOKO ecommerce was a game-changer for our web development project. 
+      Their expertise and attention to detail resulted in a visually stunning and highly functional website.
+  <i class="fa-solid fa-quote-right"></i></p>
+  <div class="icon-btn">
+      <i class="fa-solid fa-chevron-left"></i>
+      <i class="fa-solid fa-chevron-right"></i>
+  </div>
+  </article>
+ 
+</section>  -->
+
+<div class="banner2">
+  <div class="banner-container">
+    <div class="content">
+          <h2 class="home-heading paddings ">Restaurant Activer Process</h2>
+          <h3 class="header-titles2"><span>We</span> Document Every Food<br>
+            Bean Process untile it is saved</h3>
+            <p class="paddings">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque <br>
+                bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, </p>
+                <button class="foodbtn ">Read More</button>
+                <!-- <i class="fa-solid fa-circle-play paddings"></Video></i> -->
+                
+    </div>
+    <!-- <p>play video</p> -->
     </div>
   </div>
- </section>
- <div class="break-1"></div>
- <footer class="footer">
-  <div class="footer__addr">
-    <h1 class="footer__logo">About Us</h1>
-<p>orporate clients and leisure travelers has<br>
-  been relying on Groundlink for dependab<br>
-  safe, and professional chauffeured car<br>
-  service in major cities across World.</p>  
+</div>
+<div class="blog-text">
+ <h1 class=" flexCenter  home-heading blog-heading">Blog post</h1>
+  <h4 class="flexCenter header-titles2">Latest News and Blog</h4>
+
+</div>
+<div class="flexCenter paddings paddings-section">
   
+<div class="  featured-row">
+            
+  <div class="card featured-item" >
+  <img src="images/blog-2.png" alt=""  >
+ <div class="card-info">
+      <h3 class="card-header">10 February 2022 </h3>
+      <p>Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis</p>
+      <div class="info">
+        <a href="#">learn more</a>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+</div>
   </div>
-  
-  <ul class="footer__nav">
-    <li class="nav__item">
-      <h2 class="nav__title">Usefull Links</h2>
+  </div>
 
-      <ul class="nav__ul">
-        <li>
-          <a href="#about">About</a>
-        </li>
 
-        <li>
-          <a href="#">News</a>
-        </li>
-            
-        <li>
-          <a href="#">partners</a>
-        </li>
-        <li>
-          <a href="#">Team</a>
-        </li>
+<div class="card featured-item" >
+<img src="images/blog-2.png" alt="" >
 
-        <li>
-          <a href="#menu">Menu</a>
-        </li>
-            
-        <li>
-          <a href="#contant">Contacts</a>
-        </li>
-      </ul>
-    </li>
-    
-    <li class="nav__item nav__item--extra">
-      <h2 class="nav__title">Help?</h2>
+<div class="card-info">
+  <h3 class="card-header">10 February 2022 </h3>
+  <p>Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis</p>
+  <div class="info">
+    <a href="#">learn more</a>
+    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+</div>
+</div>
+</div>
+
+<div class="card featured-item" >
+<img src="images/blog-2.png" alt=""  ">
+
+<div class="card-info">
+  <h3 class="card-header">10 February 2022 </h3>
+  <p>Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis</p>
+  <div class="info">
+    <a href="#">learn more</a>
+    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<section id="newsLetter">
+  <div class="newstext">
+      <h4>Still You Need Our Support ?</h4>
+      <p>Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+  </div>
+  <div class="form">
+      <input type="Email" placeholder="Enter Your Email...">
+      <button>Subscribe Now</button>
+  </div>
+<div class="emailBreak"></div>
+</section>
+
+
+<footer class="footer">
+  <!-- <div class="brand-footer"><img src="img/logo.svg" alt=""></div> -->
+
+<div class="footer-cols">
+  <ul>
       
-      <ul class="nav__ul nav__ul--extra">
-        <li>
-          <a href="#">FAQ</a>
-        </li>
+      <p class="footer-header">contact</p>
+      <p class="food-text">orporate clients and leisure travelers has
+      been relying on Groundlink for dependab
+      safe, and professional chauffeured car
+      service in major cities across World.</p>
+<div class="footer-card">
+  <img src="images/Watch.png" alt="">
+  <div class="footer-card-info">
+      <p class="food-text">Opening Houres<br>
+        Mon - Sat(8.00 - 6.00)<br>
+        Sunday - Closed
+      </p>
+
+  </div>
+
+</div>
+</ul>
+<ul>
+  <p>Useful Links </p>
+  <li><a href="">About </a></li> 
+  <li><a href="">News</a></li>
+  <li><a href="">Partner</a></li>
+  <li><a href="">Team</a></li>
+  <li><a href="">Menu</a></li>
+  <li><a href="">Contact</a></li>
+ </ul>
+ <ul>
+  <p>Help ?</p>
+  <li><a href="">Faq </a></li> 
+  <li><a href="">Terms and Condition</a></li>
+  <li><a href="">Reporting</a></li>
+  <li><a href="">Documentation</a></li>
+  <li><a href="">Support Policy</a></li>
+  <li><a href="">Privacy</a></li>
+ </ul>
+ <ul>
+  <p>Recent Post</p>
+      <div class="list-footer">
+        <div class="list-footer-container">
+          <img src="images/Mask Group.png" alt="">
+          <div class="footer-info">
+            <p>20 Feb 2022</p>
+            <h3>Keep Your Business </h3>
+          </div>
+        </div>
+        <div class="list-footer-container">
+          <img src="images/mask-group-1.png" alt="">
+          <div class="footer-info">
+            <p>20 Feb 2022</p>
+            <h3>Keep Your Business </h3>
+          </div>
+        </div>
+        <div class="list-footer-container">
+          <img src="images/Mask-image-2.png" alt="">
+          <div class="footer-info">
+            <p>20 Feb 2022</p>
+            <h3>Keep Your Business </h3>
+          </div>
+        </div>
         
-        <li>
-          <a href="#">Terms & condition</a>
-        </li>
-        
-        <li>
-          <a href="#">Reporting</a>
-        </li>
-        <li>
-          <a href="#">documentation</a>
-        </li>
-        
-        <li>
-          <a href="#">Support Policy</a>
-        </li>
-        
-        <li>
-          <a href="#">Privacy</a>
-        </li>
-      </ul>
-    </li>
-    
-    <li class="nav__item">
-      <h2 class="nav__title">Legal</h2>
-      
-      <ul class="nav__ul">
-        <li>
-          <a href="#">Privacy Policy</a>
-        </li>
-        
-        <li>
-          <a href="#">Terms of Use</a>
-        </li>
-        
-        <li>
-          <a href="#">Sitemap</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
+      </div>
   
+ </ul>
+</div>
+
 </footer>
 
-    </main> 
-    <!-- <div class="copy-right-img">
-      <img src="/img/footer-image.png" alt="">
-      </div> -->
-    <div class="copy-right">
-    
-      <p>Copyright © 2022 by Emanikor. All Rights Reserved.</p>
+<div class="copy-right">
+  <div class="copyright-container">
+<p class="food-text">Copyright © 2022 by Emanikor. All Rights Reserved.</p>
+    <div class="copyright-icon">
+ 
+  <a href=""></a><i class="fa-brands fa-square-facebook"></i>
+  <a href=""></a><i class="fa-brands fa-square-twitter"></i>
+  <a href=""></a><i class="fa-brands fa-square-instagram"></i>
+  <a href=""></a><i class="fa-brands fa-square-youtube"></i>
+  <a href=""></a><i class="fa-brands fa-square-pinterest"></i>
+ 
 
-        <ul>
-        <li><a href=""></a><i class="fa-brands fa-square-facebook"></i></li>
-        <li><a href=""></a><i class="fa-brands fa-square-twitter"></i></li>
-        <li><a href=""></a><i class="fa-brands fa-square-instagram"></i></li>
-        <li><a href=""></a><i class="fa-brands fa-square-youtube"></i></li>
-        <li><a href=""></a><i class="fa-brands fa-square-pinterest"></i></li>
-       
-      </ul>
-     
-    </div>
-<script src="index.js"></script>
+</div>
+
+</div>
+
+</div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script src="index.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
